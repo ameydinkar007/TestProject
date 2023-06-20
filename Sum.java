@@ -11,6 +11,8 @@ public class Sum {
 	    int b = Integer.parseInt(scanner.next());
 		
 	    System.out.println("sum = "+(a+b));
+	    
+	    scanner.close();
 	}
 
 }
